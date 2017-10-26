@@ -11,10 +11,10 @@ def initialize(email)
   @email = email
 end
 
-def parse 
+def parse
 
 end
-email.split/\s*;\s*/.select |email|
-  email ! = "".uniq
+email.split/\s*;\s*/.select{|email|
+  email ! = ""}.uniq
 
 end
