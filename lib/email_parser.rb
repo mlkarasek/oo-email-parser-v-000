@@ -14,6 +14,7 @@ end
 def parse 
 
 end
-
+email.split/\s*;\s*/.select |email|
+  email ! = "".uniq
 
 end
