@@ -14,6 +14,6 @@ end
 def parse
 
 end
-email.split(/[,?\s]/).select{|email| email != ""}.uniq
+email.split(/[\s,]+/).select{|email| email != ""}.uniq
 
 end
